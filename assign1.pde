@@ -30,6 +30,7 @@ void draw() {
   rectMode(CORNER);
   rect(15,18,w,10);
   a=a+1;
+  a%=640;
   image(hp,1,8);
   
   // your code
