@@ -15,7 +15,7 @@ void setup () {
   eny=loadImage("img/enemy.png");
   x=floor(random(40,600));
   y=floor(random(40,400));
-  a=floor(random(0,640));
+  a=0;
   w=floor(random(200));
   
   // your code
